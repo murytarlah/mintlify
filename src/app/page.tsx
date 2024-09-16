@@ -1,12 +1,11 @@
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HeroContent from "./_sections/HeroContent";
 
 export default function Home() {
   return (
     <div className=" items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <Header />
       <main className="flex flex-col gap-8 items-center">
-        <h1>Hello World</h1>
+        <HeroContent />
       </main>
       <Footer />
     </div>

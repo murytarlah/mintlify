@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightArmyGreen: '#28616712',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(45deg, #E7F5FD 0%, #E6F9F6 50%, #E3FCEF 100%)',
       },
     },
   },

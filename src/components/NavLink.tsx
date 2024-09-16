@@ -9,7 +9,7 @@ interface NavLinkProps {
 
 const NavLink: React.FC<NavLinkProps> = ({ href, text, classNames }) => {
 	return (
-		<Link href={href} className={classNames}>
+		<Link href={href} className={`transition duration-200 ${classNames}`}>
 			{text}
 		</Link>
 	);

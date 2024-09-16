@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +15,12 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const ppMori = localFont({
+  src: "./fonts/PPMori-Regular.otf",
+  variable: "--font-pp-mori",
+  weight: "100 900",
+}); 
 
 export const metadata: Metadata = {
   title: "Home | Mintlify",
@@ -29,7 +38,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/icon.svg" type="img/svg" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${ppMori.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
