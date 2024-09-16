@@ -27,7 +27,7 @@ export default function HeroContent() {
         <section className="p-5 md:p-0 w-full lg:w-full mx-auto bg-custom-gradient relative after:absolute after:hidden md:after:block after:w-4/5  xl:after:w-[1152px] after:h-full after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:border-x-2 after:border-lightArmyGreen after:z-0    before:hidden md:before:block  before:absolute before:w-[70%] xl:before:w-[1024px] before:h-full before:top-1/2 before:left-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:border-x-2 before:border-lightArmyGreen before:-z-0 ">
             <Header />
             <div className="flex flex-col gap-4 items-center justify-center py-16 md:w-4/5 lg:w-[1024px] mx-auto">
-                <h1 className="text-3xl md:text-4xl font-bold text-center w-full">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center w-full">
                     <span className="w-full relative after:absolute after:border-b-2 after:border-[rgba(40,97,103,0.07)] after:left-0 after:bottom-2 after:w-full after:h-1 block">The documentation</span>
                     <span className="w-full relative after:absolute after:border-b-2 after:border-[rgba(40,97,103,0.07)] after:left-0 after:bottom-2 after:w-full after:h-1 block">you want, effortlessly</span>
                 </h1>
