@@ -4,7 +4,7 @@ import NavLink from './NavLink';
 import Logo from './Logo';
 
 
-import Twitter from '@/assets/twitter.svg';
+import Twitter from '@/assets/Twitter.svg';
 import Github from '@/assets/Github.svg';
 import Slack from '@/assets/Slack.svg';
 import Dark from '@/assets/Dark.svg';
